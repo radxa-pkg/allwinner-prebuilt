@@ -1,0 +1,2 @@
+# We do not track Allwinner prebuilt dependencies
+libgstreamer-openmax-allwinner: undeclared-elf-prerequisites

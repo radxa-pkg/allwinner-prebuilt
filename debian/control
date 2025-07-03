@@ -8,11 +8,12 @@ Build-Depends: debhelper (>=12~),
                lintian,
                dh-exec,
                pandoc,
+               crossbuild-essential-arm64 [!arm64],
 
-Package: allwinner-prebuilt
-Architecture: all
+Package: libgstreamer-openmax-allwinner
+Architecture: any
 Section: admin
 Priority: optional
 Depends: ${misc:Depends},
-Description: allwinner-prebuilt
- This package provides the allwinner-prebuilt.
+Description: Allwinner GStreamer OpenMax plugin
+ This package provides the GStreamer support for Allwinner.

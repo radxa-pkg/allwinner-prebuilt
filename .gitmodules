@@ -1,0 +1,4 @@
+[submodule "src"]
+	path = src
+	url = https://gitlab.com/tina5.0_aiot/lichee/debian.git
+	branch = product-aiot-stable

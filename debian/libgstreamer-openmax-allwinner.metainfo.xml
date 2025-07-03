@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <provides>
+    <modalias>of:NveT(null)Callwinner,sunxi-cedar-ve</modalias>
+    <modalias>of:Nve1T(null)Callwinner,sunxi-cedar-ve</modalias>
+  </provides>
+</component>

@@ -1,4 +1,4 @@
-allwinner-prebuilt (0.1.0-1) UNRELEASED; urgency=medium
+allwinner-prebuilt (1.4.6-1) UNRELEASED; urgency=medium
 
   * Add initial Debian packaging support
 

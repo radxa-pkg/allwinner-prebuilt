@@ -1,0 +1,3 @@
+post_build:
+	chmod -x src/overlay/etc/xdg/gstomx.conf
+	find src/packages/arm64 -name "*.deb" -exec cp {} ../ \;

@@ -1,0 +1,4 @@
+override_dh_installudev:
+	dh_installudev -plibgstreamer-openmax-allwinner --name=sunxi-ve --priority=99
+
+override_dh_shlibdeps:

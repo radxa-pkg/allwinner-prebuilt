@@ -1,0 +1,5 @@
+#! /usr/bin/dh-exec 
+
+src/overlay/etc/xdg/gstomx.conf etc/xdg
+src/overlay/usr/lib/aarch64-linux-gnu/gstreamer-1.0 usr/lib/aarch64-linux-gnu/
+debian/libgstreamer-openmax-allwinner.metainfo.xml usr/share/metainfo
