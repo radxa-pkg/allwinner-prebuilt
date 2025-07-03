@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+case $1 in
+install | upgrade)
+	conflicts="
+/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstxvimagesink.so
+"
+	for i in $conflicts; do
+		dpkg-divert --package libgstreamer-openmax-allwinner --divert "$i.bak" --rename "$i"
+	done
+	;;
+esac
+
+#DEBHELPER#
+
+exit 0
