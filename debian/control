@@ -9,11 +9,19 @@ Build-Depends: debhelper (>=12~),
                dh-exec,
                pandoc,
                crossbuild-essential-arm64 [!arm64],
+               libgstreamer-plugins-base1.0-0:arm64 [!arm64],
+               libglib2.0-0:arm64 [!arm64],
+               libx11-6:arm64 [!arm64],
+               libc6:arm64 [!arm64],
+               libxext6:arm64 [!arm64],
+               libxv1:arm64 [!arm64],
 
 Package: libgstreamer-openmax-allwinner
 Architecture: any
 Section: admin
 Priority: optional
-Depends: ${misc:Depends},
+Depends: gstreamer1.0-x,
+         ${shlibs:Depends},
+         ${misc:Depends},
 Description: Allwinner GStreamer OpenMax plugin
  This package provides the GStreamer support for Allwinner.
