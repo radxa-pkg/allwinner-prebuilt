@@ -1,0 +1,18 @@
+Source: allwinner-prebuilt
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Section: admin
+Priority: standard
+Standards-Version: 4.6.0
+Build-Depends: debhelper (>=12~),
+               devscripts,
+               lintian,
+               dh-exec,
+               pandoc,
+
+Package: allwinner-prebuilt
+Architecture: all
+Section: admin
+Priority: optional
+Depends: ${misc:Depends},
+Description: allwinner-prebuilt
+ This package provides the allwinner-prebuilt.
