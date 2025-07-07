@@ -1,5 +1,10 @@
-allwinner-prebuilt (1.4.6-1) UNRELEASED; urgency=medium
+allwinner-prebuilt (1.4.6-1) unstable; urgency=medium
 
+  [ "Radxa Computer Co., Ltd" ]
   * Add initial Debian packaging support
 
- -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 01 Jan 1970 08:00:00 +0800
+  [ ZHANG Yuntian ]
+  * fix: add runtime dependencies
+  * fix: divert replaced file
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 07 Jul 2025 09:13:14 +0000
