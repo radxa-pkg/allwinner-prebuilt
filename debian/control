@@ -20,7 +20,9 @@ Package: libgstreamer-openmax-allwinner
 Architecture: any
 Section: admin
 Priority: optional
-Depends: gstreamer1.0-x,
+Depends: gstreamer1.0-omx-allwinner,
+         gstreamer1.0-omx-allwinner-config,
+         gstreamer1.0-x,
          ${shlibs:Depends},
          ${misc:Depends},
 Description: Allwinner GStreamer OpenMax plugin
