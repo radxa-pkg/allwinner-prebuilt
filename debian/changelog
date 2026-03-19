@@ -1,3 +1,28 @@
+allwinner-prebuilt (1.4.6-4) unstable; urgency=medium
+
+  [ dependabot[bot] ]
+  * build(deps): bump actions/checkout from 4 to 5
+  * build(deps): bump actions/upload-pages-artifact from 3 to 4
+  * build(deps): bump actions/upload-artifact from 4 to 5
+  * build(deps): bump actions/checkout from 5 to 6
+  * build(deps): bump actions/download-artifact from 5 to 6
+  * build(deps): bump actions/upload-artifact from 5 to 6
+  * build(deps): bump actions/download-artifact from 6 to 8
+  * build(deps): bump docker/setup-qemu-action from 3 to 4
+
+  [ Feng Zhang ]
+  * Fix: Using packages from the allwinner-prebuilt-extra repository
+
+  [ Jiali Chen ]
+  * chore: update submodule src
+  * fix: no longer packaging gstomx.conf and gstreamer-1.0
+  * fix: pkg.conf: restore xserver
+  * chore: pkg.conf: add trixie support
+  * chore: pkg.conf: remove libAWIspApi*
+  * fix: add gstreamer1.0-omx-allwinner* to Depends
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 19 Mar 2026 11:23:56 +0000
+
 allwinner-prebuilt (1.4.6-3) unstable; urgency=medium
 
   [ dependabot[bot] ]
