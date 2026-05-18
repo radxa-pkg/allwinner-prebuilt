@@ -1,2 +1,2 @@
 post_build:
-	find src/packages/arm64 -name "*.deb" -exec cp {} ../ \;
+	find src/packages/arm64 \( -name "*.deb" ! -path "*debian11*" \) -exec cp {} ../ \;
