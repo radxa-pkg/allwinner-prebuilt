@@ -17,7 +17,7 @@ Build-Depends: debhelper (>=12~),
                libxv1:arm64 [!arm64],
 
 Package: libgstreamer-openmax-allwinner
-Architecture: any
+Architecture: all
 Section: admin
 Priority: optional
 Depends: gstreamer1.0-omx-allwinner,
