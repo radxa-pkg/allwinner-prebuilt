@@ -7,6 +7,7 @@ jobs:
     - name: "Rebase PRs"
       uses: "actions/github-script@v9"
       with:
+        github-token: "${{secrets.GIT_PUSH_TOKEN}}"
         script: |
           const { data: prs } = await github.rest.pulls.list({
               owner: context.repo.owner,
@@ -23,7 +24,7 @@ jobs:
               });
           }
     timeout-minutes: 10
-name: "Rebase dependabot PRs"
+name: "Dependabot rebase PRs"
 "on":
   workflow_dispatch: {}
 permissions: {}
