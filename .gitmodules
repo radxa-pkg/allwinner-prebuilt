@@ -1,4 +1,4 @@
 [submodule "src"]
 	path = src
-	url = https://github.com/radxa/allwininer-debian
+	url = https://github.com/radxa/allwinner-debian
 	branch = main
