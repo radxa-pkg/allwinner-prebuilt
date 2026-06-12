@@ -7,7 +7,7 @@ jobs:
     - name: "Rebase PRs"
       uses: "actions/github-script@v9"
       with:
-        github-token: "${{secrets.GIT_PUSH_TOKEN}}"
+        github-token: "${{secrets.PR_WRITE_TOKEN}}"
         script: |
           const { data: prs } = await github.rest.pulls.list({
               owner: context.repo.owner,
